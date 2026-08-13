@@ -1,0 +1,27 @@
+# ===== 构建输出 =====
+build/
+build-old/
+bml-old/build/
+
+# ===== 日志 =====
+*.log
+
+# ===== 编译中间文件 =====
+*.def
+imp*.txt
+*.pdb
+*.ilk
+*.exp
+*.obj
+*.o
+
+# ===== 本地工具链（不在仓库中） =====
+BML-dev-0343/
+
+# ===== IDE / 系统 =====
+.vs/
+.vscode/
+*.user
+*.suo
+Thumbs.db
+.DS_Store
